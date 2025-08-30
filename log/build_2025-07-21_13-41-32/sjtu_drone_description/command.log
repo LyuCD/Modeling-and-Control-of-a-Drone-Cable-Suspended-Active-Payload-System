@@ -1,0 +1,4 @@
+Invoking command in '/home/lcd/uav_ws/build/sjtu_drone_description': /usr/bin/cmake --build /home/lcd/uav_ws/build/sjtu_drone_description -- -j32 -l32
+Invoked command in '/home/lcd/uav_ws/build/sjtu_drone_description' returned '0': /usr/bin/cmake --build /home/lcd/uav_ws/build/sjtu_drone_description -- -j32 -l32
+Invoking command in '/home/lcd/uav_ws/build/sjtu_drone_description': /usr/bin/cmake --install /home/lcd/uav_ws/build/sjtu_drone_description
+Invoked command in '/home/lcd/uav_ws/build/sjtu_drone_description' returned '0': /usr/bin/cmake --install /home/lcd/uav_ws/build/sjtu_drone_description

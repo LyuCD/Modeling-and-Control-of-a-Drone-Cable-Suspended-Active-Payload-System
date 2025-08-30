@@ -1,0 +1,4 @@
+/home/lcd/uav_ws/install/sjtu_drone_description/lib/libpayload_swing_damper.so
+/home/lcd/uav_ws/install/sjtu_drone_description/lib/libplugin_drone.so
+/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake
+/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake

@@ -1,0 +1,130 @@
+[0.263s] Invoking command in '/home/lcd/uav_ws/build/sjtu_drone_description': /usr/bin/cmake /home/lcd/uav_ws/src/sjtu_drone_description -DCMAKE_INSTALL_PREFIX=/home/lcd/uav_ws/install/sjtu_drone_description
+[0.273s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.336s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.341s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.343s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.439s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.439s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.442s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.471s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.472s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.250s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[4.267s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.281s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.282s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.284s] -- Searching for dependencies of ignition-math6
+[4.285s] -- Looking for OGRE...
+[4.288s] -- Found Ogre Ghadamon (1.9.0)
+[4.294s] -- Looking for OGRE_Paging...
+[4.294s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.294s] -- Looking for OGRE_Terrain...
+[4.294s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.294s] -- Looking for OGRE_Property...
+[4.294s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.294s] -- Looking for OGRE_RTShaderSystem...
+[4.294s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.294s] -- Looking for OGRE_Volume...
+[4.294s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.294s] -- Looking for OGRE_Overlay...
+[4.294s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[17.532s] -- Looking for ignition-math6 -- found version 6.15.1
+[17.533s] -- Looking for ignition-transport8 -- found version 8.2.1
+[17.533s] -- Searching for dependencies of ignition-transport8
+[18.608s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[19.429s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[19.434s] -- Checking for module 'libzmq >= 4'
+[19.447s] --   Found libzmq , version 4.3.4
+[19.493s] -- Checking for module 'uuid'
+[19.505s] --   Found uuid, version 2.37.2
+[19.538s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[19.538s] -- Searching for dependencies of ignition-msgs5
+[20.703s] -- Looking for ignition-math6 -- found version 6.15.1
+[20.707s] -- Checking for module 'tinyxml2'
+[20.716s] --   Found tinyxml2, version 9.0.0
+[20.739s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[20.739s] -- Looking for ignition-common3 -- found version 3.14.0
+[20.740s] -- Searching for dependencies of ignition-common3
+[20.740s] -- Looking for dlfcn.h - found
+[20.740s] -- Looking for libdl - found
+[20.781s] -- Searching for <ignition-common3> component [graphics]
+[20.781s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[20.781s] -- Searching for dependencies of ignition-common3-graphics
+[20.781s] -- Looking for ignition-math6 -- found version 6.15.1
+[20.782s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[20.782s] -- Searching for dependencies of ignition-fuel_tools4
+[22.168s] -- Checking for module 'jsoncpp'
+[22.177s] --   Found jsoncpp, version 1.9.5
+[22.197s] -- Checking for module 'libzip'
+[22.203s] --   Found libzip, version 1.7.3
+[22.221s] -- Looking for ignition-common3 -- found version 3.14.0
+[22.221s] -- Looking for ignition-math6 -- found version 6.15.1
+[22.222s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[22.222s] -- Gazebo version: 11.10
+[22.223s] -- Found gazebo_plugins: 3.9.0 (/opt/ros/humble/share/gazebo_plugins/cmake)
+[22.253s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[22.265s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[22.273s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[22.275s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[22.314s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[22.316s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[22.317s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[22.325s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.385s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.386s] -- Configured cppcheck include dirs: /home/lcd/uav_ws/src/sjtu_drone_description/include;$<BUILD_INTERFACE:/home/lcd/uav_ws/src/sjtu_drone_description/include>
+[22.386s] -- Configured cppcheck exclude dirs and/or files: 
+[22.387s] -- Added test 'lint_cmake' to check CMake code style
+[22.389s] -- Added test 'uncrustify' to check C / C++ code style
+[22.389s] -- Configured uncrustify additional arguments: 
+[22.389s] -- Added test 'xmllint' to check XML markup files
+[22.391s] -- Configuring done
+[22.413s] -- Generating done
+[22.419s] -- Build files have been written to: /home/lcd/uav_ws/build/sjtu_drone_description
+[22.426s] Invoked command in '/home/lcd/uav_ws/build/sjtu_drone_description' returned '0': /usr/bin/cmake /home/lcd/uav_ws/src/sjtu_drone_description -DCMAKE_INSTALL_PREFIX=/home/lcd/uav_ws/install/sjtu_drone_description
+[22.427s] Invoking command in '/home/lcd/uav_ws/build/sjtu_drone_description': /usr/bin/cmake --build /home/lcd/uav_ws/build/sjtu_drone_description -- -j32 -l32
+[22.451s] [35m[1mConsolidate compiler generated dependencies of target payload_swing_damper[0m
+[22.454s] [35m[1mConsolidate compiler generated dependencies of target plugin_drone[0m
+[22.469s] [ 33%] Built target payload_swing_damper
+[22.482s] [100%] Built target plugin_drone
+[22.489s] Invoked command in '/home/lcd/uav_ws/build/sjtu_drone_description' returned '0': /usr/bin/cmake --build /home/lcd/uav_ws/build/sjtu_drone_description -- -j32 -l32
+[22.495s] Invoking command in '/home/lcd/uav_ws/build/sjtu_drone_description': /usr/bin/cmake --install /home/lcd/uav_ws/build/sjtu_drone_description
+[22.498s] -- Install configuration: ""
+[22.499s] -- Execute custom install script
+[22.499s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh
+[22.499s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv
+[22.499s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/include/sjtu_drone_description/pid_controller.h
+[22.499s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone.h
+[22.499s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone_private.h
+[22.499s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config
+[22.500s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config
+[22.500s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae
+[22.500s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl
+[22.500s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf
+[22.500s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/flexible_cable.xacro
+[22.500s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro
+[22.500s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world
+[22.500s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description
+[22.501s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description
+[22.501s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh
+[22.501s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv
+[22.501s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh
+[22.501s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv
+[22.501s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash
+[22.501s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh
+[22.501s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh
+[22.501s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv
+[22.501s] -- Symlinking: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv
+[22.506s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description
+[22.506s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake
+[22.506s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.506s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake
+[22.506s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake
+[22.506s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake
+[22.506s] -- Up-to-date symlink: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.xml
+[22.506s] -- Up-to-date: /home/lcd/uav_ws/install/sjtu_drone_description/lib/libpayload_swing_damper.so
+[22.507s] -- Up-to-date: /home/lcd/uav_ws/install/sjtu_drone_description/lib/libplugin_drone.so
+[22.507s] -- Up-to-date: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake
+[22.507s] -- Up-to-date: /home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake
+[22.508s] Invoked command in '/home/lcd/uav_ws/build/sjtu_drone_description' returned '0': /usr/bin/cmake --install /home/lcd/uav_ws/build/sjtu_drone_description

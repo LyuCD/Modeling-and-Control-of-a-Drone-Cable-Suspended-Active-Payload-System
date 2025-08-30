@@ -1,0 +1,10 @@
+[console_scripts]
+drone_position_control = sjtu_drone_control.drone_position_control:main
+listen_gt_acc = sjtu_drone_control.listen_gt_acc:main
+open_loop_control = sjtu_drone_control.open_loop_control:main
+payload_controller = sjtu_drone_control.payload_controller:main
+payload_mpc_controller = sjtu_drone_control.payload_mpc_controller:main
+plot_tools = sjtu_drone_control.plot_tools:main
+teleop = sjtu_drone_control.teleop:main
+teleop_joystick = sjtu_drone_control.teleop_joystick:main
+

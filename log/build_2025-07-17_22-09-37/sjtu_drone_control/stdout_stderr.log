@@ -1,0 +1,63 @@
+running develop
+Removing /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu-drone-control.egg-link (link to .)
+running egg_info
+writing ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/dependency_links.txt
+writing entry points to ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/entry_points.txt
+writing requirements to ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/requires.txt
+writing top-level names to ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/top_level.txt
+reading manifest file '../../build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lcd/uav_ws/build/sjtu_drone_control/build
+creating /home/lcd/uav_ws/build/sjtu_drone_control/build/lib
+creating /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/plot_tools.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/payload_controller.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/open_loop_control.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/teleop.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/teleop_joystick.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/drone_position_control.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/__init__.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control
+creating /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils
+copying sjtu_drone_control/drone_utils/drone_object.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils
+copying sjtu_drone_control/drone_utils/controllers.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils
+copying sjtu_drone_control/drone_utils/__init__.py -> /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils
+running install
+running install_lib
+creating /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+creating /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils/drone_object.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils/controllers.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_utils/__init__.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/plot_tools.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/payload_controller.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/open_loop_control.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/teleop.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/teleop_joystick.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_position_control.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/lcd/uav_ws/build/sjtu_drone_control/build/lib/sjtu_drone_control/__init__.py -> /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils/drone_object.py to drone_object.cpython-310.pyc
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils/controllers.py to controllers.cpython-310.pyc
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_utils/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/plot_tools.py to plot_tools.cpython-310.pyc
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/payload_controller.py to payload_controller.cpython-310.pyc
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/open_loop_control.py to open_loop_control.cpython-310.pyc
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/teleop.py to teleop.cpython-310.pyc
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/teleop_joystick.py to teleop_joystick.cpython-310.pyc
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_position_control.py to drone_position_control.cpython-310.pyc
+byte-compiling /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/sjtu_drone_control -> /home/lcd/uav_ws/install/sjtu_drone_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control
+running install_egg_info
+Copying ../../build/sjtu_drone_control/sjtu_drone_control.egg-info to /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing drone_position_control script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing open_loop_control script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing payload_controller script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing plot_tools script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing teleop script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing teleop_joystick script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+writing list of installed files to '/home/lcd/uav_ws/build/sjtu_drone_control/install.log'

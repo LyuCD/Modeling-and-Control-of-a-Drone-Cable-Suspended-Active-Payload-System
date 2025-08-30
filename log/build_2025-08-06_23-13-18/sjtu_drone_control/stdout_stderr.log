@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/dependency_links.txt
+writing entry points to ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/entry_points.txt
+writing requirements to ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/requires.txt
+writing top-level names to ../../build/sjtu_drone_control/sjtu_drone_control.egg-info/top_level.txt
+reading manifest file '../../build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/sjtu_drone_control/sjtu_drone_control.egg-info to /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing drone_position_control script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing listen_gt_acc script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing open_loop_control script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing payload_controller script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing payload_mpc_controller script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing plot_tools script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing teleop script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing teleop_joystick script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+writing list of installed files to '/home/lcd/uav_ws/build/sjtu_drone_control/install.log'

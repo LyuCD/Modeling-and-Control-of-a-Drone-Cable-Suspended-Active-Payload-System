@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating sjtu_drone_control.egg-info
+writing sjtu_drone_control.egg-info/PKG-INFO
+writing dependency_links to sjtu_drone_control.egg-info/dependency_links.txt
+writing entry points to sjtu_drone_control.egg-info/entry_points.txt
+writing requirements to sjtu_drone_control.egg-info/requires.txt
+writing top-level names to sjtu_drone_control.egg-info/top_level.txt
+writing manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'
+reading manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'
+writing manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu-drone-control.egg-link (link to .)
+Installing drone_position_control script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing open_loop_control script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing payload_controller script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing plot_tools script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing teleop script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing teleop_joystick script to /home/lcd/uav_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+
+Installed /home/lcd/uav_ws/build/sjtu_drone_control
+running symlink_data
+creating /home/lcd/uav_ws/install/sjtu_drone_control/share/ament_index
+creating /home/lcd/uav_ws/install/sjtu_drone_control/share/ament_index/resource_index
+creating /home/lcd/uav_ws/install/sjtu_drone_control/share/ament_index/resource_index/packages
+symbolically linking /home/lcd/uav_ws/build/sjtu_drone_control/resource/sjtu_drone_control -> /home/lcd/uav_ws/install/sjtu_drone_control/share/ament_index/resource_index/packages
+symbolically linking /home/lcd/uav_ws/build/sjtu_drone_control/package.xml -> /home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control

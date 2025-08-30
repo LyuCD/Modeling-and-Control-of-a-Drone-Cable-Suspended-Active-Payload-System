@@ -1,0 +1,265 @@
+[0.249s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.249s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f82474584c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8247561960>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8247561960>>)
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.335s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lcd/uav_ws'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/imgs) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_bringup) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_bringup) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_bringup) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_bringup) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_bringup) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_bringup) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_bringup) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_bringup) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sjtu_drone_bringup' with type 'ros.ament_python' and name 'sjtu_drone_bringup'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_control) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_control) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_control) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_control) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_control) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_control) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_control) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_control) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_control) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sjtu_drone_control' with type 'ros.ament_python' and name 'sjtu_drone_control'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_description) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_description) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_description) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_description) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_description) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_description) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_description) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone_description) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sjtu_drone_description' with type 'ros.ament_cmake' and name 'sjtu_drone_description'
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/lcd/uav_ws/install
+[0.372s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 323 installed packages in /opt/ros/humble
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lcd/uav_ws/build/sjtu_drone_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lcd/uav_ws/install/sjtu_drone_bringup', 'merge_install': False, 'path': '/home/lcd/uav_ws/src/sjtu_drone_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lcd/uav_ws/build/sjtu_drone_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lcd/uav_ws/install/sjtu_drone_control', 'merge_install': False, 'path': '/home/lcd/uav_ws/src/sjtu_drone_control', 'symlink_install': False, 'test_result_base': None}
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.392s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.392s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lcd/uav_ws/build/sjtu_drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lcd/uav_ws/install/sjtu_drone_description', 'merge_install': False, 'path': '/home/lcd/uav_ws/src/sjtu_drone_description', 'symlink_install': False, 'test_result_base': None}
+[0.392s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.393s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.393s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lcd/uav_ws/src/sjtu_drone_bringup' with build type 'ament_python'
+[0.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'ament_prefix_path')
+[0.395s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.ps1'
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.dsv'
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.sh'
+[0.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.397s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lcd/uav_ws/src/sjtu_drone_control' with build type 'ament_python'
+[0.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_control', 'ament_prefix_path')
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.sh'
+[0.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lcd/uav_ws/src/sjtu_drone_description' with build type 'ament_cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lcd/uav_ws/src/sjtu_drone_description'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lcd/uav_ws/src/sjtu_drone_bringup'
+[0.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.653s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lcd/uav_ws/src/sjtu_drone_control'
+[0.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lcd/uav_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/lcd/uav_ws/install/sjtu_drone_control:/home/lcd/uav_ws/install/sjtu_drone_bringup /usr/bin/cmake --build /home/lcd/uav_ws/build/sjtu_drone_description -- -j32 -l32
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lcd/uav_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/lcd/uav_ws/install/sjtu_drone_control:/home/lcd/uav_ws/install/sjtu_drone_bringup /usr/bin/cmake --build /home/lcd/uav_ws/build/sjtu_drone_description -- -j32 -l32
+[0.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lcd/uav_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/lcd/uav_ws/install/sjtu_drone_control:/home/lcd/uav_ws/install/sjtu_drone_bringup /usr/bin/cmake --install /home/lcd/uav_ws/build/sjtu_drone_description
+[0.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[0.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lcd/uav_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/lcd/uav_ws/install/sjtu_drone_control:/home/lcd/uav_ws/install/sjtu_drone_bringup /usr/bin/cmake --install /home/lcd/uav_ws/build/sjtu_drone_description
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description' for CMake module files
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description' for CMake config files
+[0.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/lib'
+[0.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/bin'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/lib/python3.10/site-packages'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/bin'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[0.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lcd/uav_ws/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[0.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description' for CMake module files
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description' for CMake config files
+[0.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/lib'
+[0.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/bin'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/lib/python3.10/site-packages'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_description/bin'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[0.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lcd/uav_ws/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lcd/uav_ws/src/sjtu_drone_bringup': PYTHONPATH=/home/lcd/uav_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lcd/uav_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sjtu_drone_bringup build --build-base /home/lcd/uav_ws/build/sjtu_drone_bringup/build install --record /home/lcd/uav_ws/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[0.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lcd/uav_ws/src/sjtu_drone_control': PYTHONPATH=/home/lcd/uav_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sjtu_drone_control build --build-base /home/lcd/uav_ws/build/sjtu_drone_control/build install --record /home/lcd/uav_ws/build/sjtu_drone_control/install.log --single-version-externally-managed install_data
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_bringup' for CMake module files
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lcd/uav_ws/src/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/lcd/uav_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lcd/uav_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sjtu_drone_bringup build --build-base /home/lcd/uav_ws/build/sjtu_drone_bringup/build install --record /home/lcd/uav_ws/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_bringup' for CMake config files
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_bringup/lib'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_bringup/bin'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_bringup/lib/pkgconfig/sjtu_drone_bringup.pc'
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages'
+[0.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'pythonpath')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.dsv'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_bringup/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_bringup)
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.sh'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.bash'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.zsh'
+[0.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lcd/uav_ws/install/sjtu_drone_bringup/share/colcon-core/packages/sjtu_drone_bringup)
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_control' for CMake module files
+[0.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lcd/uav_ws/src/sjtu_drone_control' returned '0': PYTHONPATH=/home/lcd/uav_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sjtu_drone_control build --build-base /home/lcd/uav_ws/build/sjtu_drone_control/build install --record /home/lcd/uav_ws/build/sjtu_drone_control/install.log --single-version-externally-managed install_data
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_control' for CMake config files
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_control/lib'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_control/bin'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_control/lib/pkgconfig/sjtu_drone_control.pc'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_control/lib/python3.10/site-packages'
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_control', 'pythonpath')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.sh'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/lcd/uav_ws/install/sjtu_drone_control/bin'
+[0.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_control)
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.sh'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.bash'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/lcd/uav_ws/install/sjtu_drone_control/share/sjtu_drone_control/package.zsh'
+[0.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lcd/uav_ws/install/sjtu_drone_control/share/colcon-core/packages/sjtu_drone_control)
+[0.976s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.977s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.990s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.990s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.990s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.990s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.990s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[0.990s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.990s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lcd/uav_ws/install/local_setup.ps1'
+[0.991s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lcd/uav_ws/install/_local_setup_util_ps1.py'
+[0.992s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lcd/uav_ws/install/setup.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lcd/uav_ws/install/local_setup.sh'
+[0.992s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lcd/uav_ws/install/_local_setup_util_sh.py'
+[0.993s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lcd/uav_ws/install/setup.sh'
+[0.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lcd/uav_ws/install/local_setup.bash'
+[0.993s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lcd/uav_ws/install/setup.bash'
+[0.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lcd/uav_ws/install/local_setup.zsh'
+[0.994s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lcd/uav_ws/install/setup.zsh'
