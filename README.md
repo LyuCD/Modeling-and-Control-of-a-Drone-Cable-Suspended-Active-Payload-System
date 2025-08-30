@@ -59,7 +59,17 @@ Plots and metrics are saved in `/results`.
 - Start/stop acceleration  
 - Force-cap sweep (0.5–3.0 N)  
 
+## 6. Data
 
+All experimental and simulation results are stored in the `data/` directory.  
+It contains the following subfolders:
+
+- **figs_all/** – all generated figures from simulations (complete set).  
+- **figs_by_case/** – results grouped by test cases (e.g., hover, step move, acceleration).  
+- **figs_compare/** – comparison plots between different controllers (No Control, PID, MPC).  
+- **mpc_figs/** – specific plots and metrics related to the MPC controller.  
+
+These figures are used in the analysis and result sections of the dissertation.
 
 # sjtu_drone
 sjtu_drone is a quadrotor simulation program forked from [tum_simulator](http://wiki.ros.org/tum_simulator), developed using ROS + Gazebo.
